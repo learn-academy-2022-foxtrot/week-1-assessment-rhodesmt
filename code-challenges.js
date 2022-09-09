@@ -41,44 +41,44 @@
 // I will need to write a conditional statement that checks the given temp against the boiling point. 
 // I will also need to use string interpolation to call the variable back into the console output to verify.
 
-// let temp = 42
-// const boilingPoint = 212
+let temp = 42
+const boilingPoint = 212
 // // Expected output: "42 is below boiling point"
 
-// if(temp > boilingPoint) {
-//     console.log(`${temp} is above boiling point`)
-// } else if(temp < boilingPoint) {
-//     console.log(`${temp} is below boiling point`)
-// } else if(temp === boilingPoint) {
-//     console.log(`${temp} is at boiling point`)
-// } else(console.log("Error"))
+if(temp > boilingPoint) {
+    console.log(`${temp} is above boiling point`)
+} else if(temp < boilingPoint) {
+    console.log(`${temp} is below boiling point`)
+} else if(temp === boilingPoint) {
+    console.log(`${temp} is at boiling point`)
+} else(console.log("Error"))
 
 // Expected output: "42 is below boiling point"
 
-// let temp = 350
+let temp = 350
 // // Expected output: "350 is above boiling point"
-// const boilingPoint = 212
+const boilingPoint = 212
 
-// if(temp > boilingPoint) {
-//     console.log(`${temp} is above boiling point`)
-// } else if(temp < boilingPoint) {
-//     console.log(`${temp} is below boiling point`)
-// } else if(temp === boilingPoint) {
-//     console.log(`${temp} is at boiling point`)
-// } else(console.log("Error"))
+if(temp > boilingPoint) {
+    console.log(`${temp} is above boiling point`)
+} else if(temp < boilingPoint) {
+    console.log(`${temp} is below boiling point`)
+} else if(temp === boilingPoint) {
+    console.log(`${temp} is at boiling point`)
+} else(console.log("Error"))
 
 
-//  let temp = 212
+ let temp = 212
 // // Expected output: "212 is at boiling point"
-// const boilingPoint = 212
+const boilingPoint = 212
 
-// if(temp > boilingPoint) {
-//     console.log(`${temp} is above boiling point`)
-// } else if(temp < boilingPoint) {
-//     console.log(`${temp} is below boiling point`)
-// } else if(temp === boilingPoint) {
-//     console.log(`${temp} is at boiling point`)
-// } else(console.log("Error"))
+if(temp > boilingPoint) {
+    console.log(`${temp} is above boiling point`)
+} else if(temp < boilingPoint) {
+    console.log(`${temp} is below boiling point`)
+} else if(temp === boilingPoint) {
+    console.log(`${temp} is at boiling point`)
+} else(console.log("Error"))
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
@@ -90,7 +90,8 @@
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
   const totalWorldSeries =  padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
-//   console.log(totalWorldSeries.length)
+
+  console.log(totalWorldSeries.length)
 
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
@@ -102,7 +103,7 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: "2202 tortxoF"
 
 const currentCohort = "Foxtrot 2022"
-// console.log(currentCohort.split("").reverse().join(""))
+console.log(currentCohort.split("").reverse().join(""))
     
 
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
@@ -115,12 +116,12 @@ const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 const givenValue1 = 42
 // Expected output: 7
 
-// console.log(myNumbers.lastIndexOf(42))
+console.log(myNumbers.lastIndexOf(42))
 
 const givenValue2 = 10
 // Expected output: 8
 
-// console.log(myNumbers.lastIndexOf(10))
+console.log(myNumbers.lastIndexOf(10))
 
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
@@ -128,9 +129,11 @@ const givenValue2 = 10
 // Use .sort to rearrainge the order of the array
 // Using numbers in the array, I will have to specify the order (b, a)
 
-const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
+// const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
 // Expected output: [82, 80, 79, 77, 76, 73, 72]
-console.log(sanDiegoSummerTemperatures.sort(a, b) {return b - a})
+console.log(sanDiegoSummerTemperatures.sort().reverse())
 
 const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66]
 // Expected output: [68, 67, 66, 66, 62, 59, 59]
+console.log(sanDiegoWinterTemperatures.sort().reverse())
+
