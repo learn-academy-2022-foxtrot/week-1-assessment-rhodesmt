@@ -55,9 +55,9 @@ if(temp > boilingPoint) {
 
 // Expected output: "42 is below boiling point"
 
-let temp = 350
-// // Expected output: "350 is above boiling point"
-const boilingPoint = 212
+// let temp = 350
+// // // Expected output: "350 is above boiling point"
+// const boilingPoint = 212
 
 if(temp > boilingPoint) {
     console.log(`${temp} is above boiling point`)
@@ -68,9 +68,9 @@ if(temp > boilingPoint) {
 } else(console.log("Error"))
 
 
- let temp = 212
-// // Expected output: "212 is at boiling point"
-const boilingPoint = 212
+//  let temp = 212
+// // // Expected output: "212 is at boiling point"
+// const boilingPoint = 212
 
 if(temp > boilingPoint) {
     console.log(`${temp} is above boiling point`)
@@ -89,7 +89,10 @@ if(temp > boilingPoint) {
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
-  const totalWorldSeries =  padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
+  
+// Created new variable to store the combined arrays of the '84 and '98 World Series Runs
+
+const totalWorldSeries =  padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
 
   console.log(totalWorldSeries.length)
 
