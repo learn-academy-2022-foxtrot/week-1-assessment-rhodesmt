@@ -45,10 +45,10 @@ const index = 1
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-console.log(weekendDays.toUpperCase(weekendDays))
+// console.log(weekendDays.toUpperCase())
 
 // a) Your answer: The output will be 'Saturday Sunday'. .toUppercase changes the strings within the called on variable to change the beginning letter to upper case.
-// b) Verify and explain: I received an error message saying that .toUpperCase is not a function. 
+// b) Verify and explain: I received an error message saying that .toUpperCase is not a function. The reason that it did not run is because .toUpperCase is specifically a built-in String Method within Javascript
 
 
 // --------------------5) What will this log?
@@ -56,5 +56,5 @@ console.log(weekendDays.toUpperCase(weekendDays))
 const dataTypes = ["number", "string", "Boolean"]
 // console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:I think the output is going to be 'number' but I'm not entirely certain why. .length would normally give the number of indexes within the given array or string. I'm not sure what typeof does or will do.
+// b) Verify and explain:I was correct, the given output was 'number', but I still did not understand why. The reason is that typeof is asking for what kind of data type is stored within the given variable, in this instance dataTypes. .length is getting the number of indexes (3) which is then being identified as a number by the typeof operator.
