@@ -38,9 +38,9 @@ Researched answer: String are a collection of character wrapped in quotation mar
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-Your answer:
+Your answer: Pair programming will involve two distinct roles: (1) The Driver is responsible for actually writing down the code that is being dictated to them by (2) the Navigator. The driver is resonsible for sharing their screen to allow the Navigator to be able in real-time to direct them in the programming process. This forces those in the Navigator role to talk out their logic and thought processess out loud, as well as explain to those who may not have as good a grasp of the concept for the given assignment.
 
-Researched answer:
+Researched answer: The Driver is responsible for using the mouse and keyboard while sharing their screen. The are following the instructions of the Navigator for what to type in the code editor. The Navigator is responsible for monitoring the code being type, advising the Driver with any questions or assistance that may require deviating from the code to check a reference source for specific information. This also allows for the Navigator to assist with bugs, typos, or errors that might otherwise go unnoticed. Through this constant flow of communication, the "neural load" is shared between the programmers allowing them to code better together.
 
 ## Looking Ahead: Terms for Next Week
 
