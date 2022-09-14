@@ -28,7 +28,7 @@ Researched answer: Relational operators like greater than >, less than <, greate
 
 Your answer: An index is the location within an Array or String that is currently being occupied by a value. A value is the piece of information contained within the given index at the time. Indexes begin at 0 and count up for each index contained within the array or string.
 
-Researched answer:
+Researched answer: A value can be a string, boolean, number, or any other type of JavaScript data type. An index is the numbered place within a given array beginning at 0 and counting up.
 
 4. Compare and contrast arrays and strings.
 
@@ -46,12 +46,12 @@ Researched answer: The Driver is responsible for using the mouse and keyboard wh
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: A function that brings in a function as an argument. They are only called on arrays, are able to utilize less code than a typical function, and as a result utilize less CPU. .map() amd .filter()
 
-2. Jest:
+2. Jest: A JavaScript testing framework that allows developers to run tests using a collection of files with bits of code functionality. Facebook in 2016 created Yarn which acts as a package manager for the dependencies location within the Jest framework.
 
-3. Objects:
+3. Objects: A collection of key:value pairs stored in curly braces, with the key being a data type of symbol and the value being any valid data type within JavaScript
 
-4. Method:
+4. Method: An action that can be performed on an object. Specific to the object in its performance. Essentially, a variable is being created with a function the output specific data in the new variable when called on.
 
-5. Classes:
+5. Classes: A particular type of function that contain data and behavior. Classes are the structure for objects, and must consist of a specific syntax and keywords to utilize within JavaScript.
